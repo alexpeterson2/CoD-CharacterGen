@@ -1,0 +1,13 @@
+1.1
+Initial asset store release
+
+1.2
+Cleaned up Modal Animation to not show the mask zooming in with the modal content.
+Pre-generated Text Mesh Pro fonts from provided TTFs.
+Fixed Scroll event not being propogated to parent scroll view when scrolling on arrows in the MultiValueToggle Prefab
+Added 2 new Progress Bars
+Added Rounded Elegance font.
+Added font preview for all fonts on the demo scene.
+Added Multi Value Toggle to UI Elements Overview
+Updated scripts to no longer generate warnings
+On Unity 2018.X+ versions TextMeshPro is now used from the PACKAGE MANAGER, not the ASSET STORE. Unity 2017.X versions are unaffected by this change.
