@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Prototype/NC_General_Info.unity
+- path: Assets/Scenes/Prototype/CharacterCreation.unity
   isLoaded: 1
   isActive: 1
