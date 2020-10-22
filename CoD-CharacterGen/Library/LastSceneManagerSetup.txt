@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Prototype/CharacterCreation.unity
+- path: Assets/_My Assets/_Scenes/Temp.unity
   isLoaded: 1
   isActive: 1

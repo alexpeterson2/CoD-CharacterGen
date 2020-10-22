@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Prototype/CharacterCreation.unity
+    path: Assets/_My Assets/_Scenes/CharacterCreation.unity
     guid: 87af52051e7cc1f4eabd882c1cfd309b
   m_configObjects: {}
