@@ -10,19 +10,22 @@ public class Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (manager == null)
+        
+        if (manager != null && manager != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
         {
             manager = this;
-        }
-        else if (manager != null && manager != this)
-        {
-            Destroy(this);
         }
 
         if (character == null)
         {
             character = new Character();
         }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame

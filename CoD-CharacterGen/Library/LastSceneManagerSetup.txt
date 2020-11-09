@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/_My Assets/_Scenes/Temp.unity
+- path: Assets/_My Assets/_Scenes/CharacterCreation.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
