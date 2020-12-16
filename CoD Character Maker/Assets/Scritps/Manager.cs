@@ -10,7 +10,7 @@ public class Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Singleton setup
         if (manager != null && manager != this)
         {
             Destroy(this.gameObject);
@@ -20,17 +20,12 @@ public class Manager : MonoBehaviour
             manager = this;
         }
 
-        if (character == null)
-        {
-            character = new Character();
-        }
-
         DontDestroyOnLoad(this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void NewCharacter()
     {
-        
+        // Character being made
+        character = new Character();
     }
 }

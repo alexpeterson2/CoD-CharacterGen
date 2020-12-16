@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public class Character
 {
-    public string template;
+    public Template template;
     public string charName;
     public int strength;
     public int resolve;
@@ -16,15 +16,5 @@ public class Character : MonoBehaviour
     public int dexterity;
     public int intelligence;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public enum Template { Hunter, Vampire };
 }
